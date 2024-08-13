@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 10%;
+}
+.blackheader{
+    background-color: black;
+    padding: 35px;
+    /* text-align: center; */
+}
+.rosa{
+    background-color: rgb(233, 42, 176);
+    padding: 10px;
+}
+.gris{
+    background-color: rgb(169, 164, 164);
+    padding: 60px;
+}
+.masGris{
+    background-color: rgb(65, 65, 65);
+    padding: 10px;
+}
+ul{
+    font-size: 20px;
+    padding-left:25px;
+    padding-top:25px;
+}

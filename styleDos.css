@@ -1,0 +1,73 @@
+*{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 45px;
+    text-align: center;
+    margin: 20px;
+    
+}
+form{
+    max-width: 60%;
+    padding: 20px;
+    align-content: center;
+    justify-content: center;
+    border: solid white 4px;
+    border-radius: 6px;
+    font-size: 25px;
+    padding: 20px 50px 15px 50px;
+    background-color: #0f0f0f;
+    box-shadow: 0 2px 4p rgba(0,0,0, 02.);
+    margin-left: 20%;
+    
+    
+}
+label{
+    text-align: center;
+    margin: 2rem;
+    font-style: bold;
+    }
+input{
+    background-color: gray;
+    font-size: 25px;
+    display: block;
+    width: 95%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    
+}
+button{
+    background-color: yellow;
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    display: flexbox;
+    cursor: pointer;
+    width: 40%;
+    margin-left:30%;
+}
+#buttonContainer{
+    display: block;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    /*  */
+}
+#enviar{
+    font-size: 25px;
+    color:black;
+    background-color: yellow;
+    margin-top: 20px;
+}
+select{
+    font-size: 25px;
+}
