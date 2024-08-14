@@ -33,9 +33,9 @@ section{
     /* position:relative; */
     margin-left: 35dvh;
     background-color: rgb(198, 25, 164);
-    width: 75vh;
+    width: 100%;
     padding: 20px;
-    margin: 1 0 0 25dvh;
+    margin: 0;
 
 }
 aside{
