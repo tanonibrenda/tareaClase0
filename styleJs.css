@@ -1,0 +1,78 @@
+/* Estilos para el Formulario*/
+boyd{
+    display:flexbox;
+    flex-direction: column;
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+    margin: 20px;
+}
+h3{
+    font-size: 25px;
+    text-align: center;
+    margin: 20px;
+}
+
+form{
+    max-width: 60%;
+    align-items: center;
+    border: solid grey 4px;
+    border-radius: 6px;
+    font-size: 25px;
+    padding: 20px 50px 15px 50px;
+    box-shadow: 0 2px 4p rgba(0,0,0, 02.);
+    background-color: white;
+    margin-left: 20%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    margin: 10px;
+    background-color: white;
+
+}
+input{
+    display: block;
+    background-color: rgb(227, 224, 224);
+    width: 95%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-size: 25px;
+}
+select {
+    font-size: 25px;
+}
+button{
+    background-color: #007bff;
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 4px;
+    width: 95%;
+}
+
+/* Estilos para el botón */
+#dark-mode-toggle {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: right;
+    max-width: 25%;
+}
+
+/* Estilos para el fondo en modo oscuro */
+body.dark-mode {
+    background-color: #111;
+    color: #fff;
+}
+

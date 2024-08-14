@@ -1,16 +1,22 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio Tres</title>
-    <link rel="stylesheet" href="styleTres.css">
+    <title>Formulario con JS</title>
+    <link rel="stylesheet" href="styleJs.css">
 </head>
 <body>
     <header>
-    <h1>Formulario de Datos Personales</h1>
+    <div id="container">
+        <div class="sweetchOn">
+            <button id="dark-mode-toggle">Cambiar modo</button>
+        </div>
+    </div>
+    <h1>GRUPO DE ESTUDIO DE PROGRAMACIÓN FULLSTACK</h1>
     </header>
     <main>
+        <h3>Ingrese sus datos datos para formar parte del grupo de estudio.</h3>
         <form>
             <label for="nombre">Nombre: </label>
             <input type="text" id="nombre" name="nombre" required aria-invalid="true" aria-describedby="error-cumple">
@@ -38,7 +44,8 @@
             <button type="submit">Enviar</button>
     
         </form>
-        
     </main>
+
+    <script src="formJs.js"></script>
 </body>
 </html>
