@@ -8,6 +8,10 @@
 Cree una un formulario que cambia de modo usando funciones de Javascript. Es algo nuevo, que no sabía hacer. Está en los archivos: formJs.html, styleJs.css y form.js
 
  #tareaCss
- Ejercicio 1: 
+ consta de 3 ejercicios para reproducir 3 imagenes.
+ Son los archivos: index_uno.html, estilo_uno.css, index_dos.html, 
+  index_tres.html y estilo_tres.css
+
+
 
 
