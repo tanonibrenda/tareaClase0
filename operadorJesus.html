@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Alumnos</title>
+</head>
+<body>
+
+    <h1>Operadores</h1>
+<h2>Resumen sobre la Presentación de Jesus</h2>
+<p>Mónica entrego antes que Nahuel
+     Leandro no asistió y lo eliminamos de esta lista
+     Detrás de Jesús y antes de Laura entregaron 2 alumnos que no estaban en la lista:
+    Roberto y Claudia, en ese orden</p>
+    <script>
+        var posiciones = ["Jesús", "Laura", "Nahuel", "Mónica", "Maria", "Leandro", "Susana"];
+        document.write("<h1>Lista de alumnos</h1>");
+        for (var i = 0; i < posiciones.length; i++) {
+            document.write((i + 1) + ". " + posiciones[i] + "<br>");
+        }
+    </script>
+
+
+</body>
+
+</html>
